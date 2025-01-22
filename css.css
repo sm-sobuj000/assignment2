@@ -9,6 +9,13 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+marquee{
+    border-top: 1px solid #DEF5FF;
+    border-bottom: 1px solid #DEF5FF;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 0 80PX;
+}
 /* navbar */
 nav{
     display: flex;
@@ -102,13 +109,7 @@ li{
     background-color: white;
     color: black;
 }
-marquee{
-    border-top: 1px solid #DEF5FF;
-    border-bottom: 1px solid #DEF5FF;
-    margin-top: 40px;
-    font-size: medium;
-    padding: 0 80PX;
-}
+
 main{
     background-image: url(bg.png);
     background-repeat: no-repeat;
@@ -404,6 +405,9 @@ font-weight: 400;
 
 /* responsive extra small device */
 @media screen and (max-width: 575px) {
+    .mrq{
+
+    }
     nav{
         padding: 10px 10px;
         border-bottom: 1px solid #FEA301;
