@@ -311,6 +311,18 @@ main{
         border-top-right-radius:16px ;
 
     }
+    .scl button{
+        border-radius: 47.93px;
+
+background: rgb(60, 216, 232);/* Background */
+
+width: 174.51px;
+height: 47.93px;
+
+    }
+    .scl button:hover{
+        background-color: #F0AA00;
+    }
     .scr button{
         width: 174.51px;
         height: 38.35px;
@@ -322,18 +334,15 @@ font-family: Raleway;
 font: size 1rem;;
 font-weight: 500;
 text-align: center;
-left: 20px;
-
+border-left: -20px;
+border-top: -50px;
     }
     .scr button:hover{
         background-color: #F0AA00;
     }
 
     .story-card1{
-        display: flex;
-    flex-direction: column;
-    border: 1px solid #FFF4DC;
-    align-items: center;
+   
     }
     .story-card1 h3{
         color: rgb(0, 0, 0);
@@ -478,7 +487,15 @@ font-weight: 400;
     
     .scl{
         display: none;
+
     }
+    .scr{
+        padding: 0 10px;
+    }
+    .scr button{
+        width: 103.51px;
+        height: 22.35px;
+    font-size: 0.5rem;}
     footer{
         display: flex;
         flex-direction: column;
