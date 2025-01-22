@@ -13,8 +13,9 @@ marquee{
     border-top: 1px solid #DEF5FF;
     border-bottom: 1px solid #DEF5FF;
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0 80PX;
+    font-family: Quicksand;
 }
 /* navbar */
 nav{
@@ -227,6 +228,9 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+}
+.earo:hover{
+    transform: rotate(90deg) ;
 }
 
 
