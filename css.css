@@ -74,7 +74,7 @@ li{
     transition-duration: 0.3s;
 }
 .btn1:hover{
-    background-color: #01ACFD;
+    background-color: black;
 }
 /* nav done */
 /* banner start */
@@ -350,6 +350,14 @@ font-family: Quicksand;
 font-size: 2rem;
 font-weight: 700;
     }
+    .scl p{
+        color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 1000;
+text-align: center;
+text-decoration:;
+    }
     .story-card1 p{
         font-size:1.5rem ;
     }
@@ -374,9 +382,20 @@ font-weight: 700;
     font-weight: 700;
     text-decoration: none;
     }
+    .story-bottom button:hover{
+        background-color: white;
+        color: black;
+    }
     #sbb1{
         display: flex;
         align-items: center;
+    }
+    #scr3{
+        background: rgb(93, 88, 240);
+
+    }
+    #scr3:hover{
+        background-color: #F0AA00;
     }
 
     #s11{}
